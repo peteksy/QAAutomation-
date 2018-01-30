@@ -1,0 +1,22 @@
+                                              @Test 2
+                                            +++++++++++++++
+
+package: 
+
+import org.openqa.By;
+import org.openqa.Selenium.webDriver;
+import org.openqa.firefox.FirefoxDriver;
+
+public void Internationalisation{
+
+public static void main(String[]args){
+//object and variables instantiations
+webDriver driver = new FirefoxDriver();
+driver.get("http://test-8c21.oneflowcloud.com/sign-in");
+//display of different international languages on Dropdown button
+boolean buttonPresence = driver.findElement(By.id("Language")).isDisplayed();
+boolean buttonPresence = driver.findElement(By.id("Language")).isDisplayed();
+boolean buttonPresence = driver.findElement(By.id("Language")).isEnabled();
+
+
+

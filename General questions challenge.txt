@@ -1,0 +1,119 @@
+     General Questions
+                                          ===========================
+
+1.)
+
+A.)In order to have full coverage of the new feature; I shall approach the delevery of the project thus:
+
+1.)Give time to Oganise the project into:
+                                         (i.)  Story: geting to listen to what the users' representative have to say concerning the new feature thay intend 
+
+to add to the                                    project.At this stage it is assumed that users don't even know what exaactly they wantbut as Developer,QA as 
+
+the case may                                    be with further questioning we will have vivid understanding of what the user is looking for.  
+                             
+
+                                         (ii.) Backlog: Consequently, from this vivid understanding of the intension of the product owner(user) backlog of 
+
+reuirements are                                   penciled down.; and as questions are beig asked the backlog is beig populated .
+                             
+                           
+                                         (iii.)Tasks:The backlog penciled down are now organised or structured into mini or pocketof projects called tasks 
+
+based on                                   functionality or security issues percieved.
+
+
+2.)Timeboxing/Sprint(ing): The pocket of projects (tasks) found are given the target of being released or come live based on analytical assement based on 
+
+experience within the team or as culture within the organization to categorize project in order of massiveness  Like Small, Medium and Large. project.The 
+
+standard spint within Agile methodology is between 1-4 weeks.So I reckon small Project are sprinted/timeboxed for 1 week, medium size project are sprinted 
+
+between 2-3 weeks depending, while Large project are sprinted for between 3-4 weeks. I reckon the additional feature is within the boundary of small and 
+
+medium size project hence should be sprinted between 1 to 2 weeks depending.
+
+
+3.)Scrum: This is grouping crossfunction of professtionals (mwembers) to under differnt sprints to deliver each sprint as at when due.
+
+
+4.)Sprint Planning where the endusers will be given the opportunity to endorse the effort so far. They (endusers) are given the opportunity to priorites the 
+
+backlog and the priority forms the template for my sprinting,rollout and releases. Here adjustments to the backlogvis a vis tasks are imminent.
+
+
+5.)Scrum Review : Here progress monitoring,issues and risks experieced by memebers are shared; solutions are proffered and lessons learnt are documented and 
+
+formed the build up as part of the artifact for the project.
+
+
+6.)Sprint retrospect: Here at the end of each sprint any backlog that is yet to be released are rolled over to the next sprint.
+
+
+B.)Once the feature is delivered into development environment,the time it will take to implement full coverage depends on category the project falls 
+
+(small,medium orlarge), the number of backlog extrapolated vis a vis spring review outcome  the given to allow the product owner to own the prioritisation of 
+
+the requirements ;so that as soon as those tasks they have prioritsed have been achieved then we may consider to have got full coverage.
+
+
+
+c.)The following risks have been identified which are capable of causing project’s plan to go off track and lead to projects that deliver late, build the    
+
+wrong thing, waste time, and so on, they are
+
+
+   i.) Schedule flaws: In case of some software deliverables, especially the large ones, it is difficult to assess the effort required at the beginning of    
+
+    the software development life cycle.
+
+   ii.) Requirements inflation  since there is lack of emphasis on necessary designing and documentation.
+
+  iii.) Turnover 
+  
+   iv.) Specification breakdown: The project can easily get taken off track if the user representative is not clear what final outcome that they want.
+   
+    v.) Under performance: Only senior programmers are capable of taking the kind of decisions required during the development process. Hence it has no place 
+
+         for naive programmers, unless combined with experienced resources.
+   
+  vi.)Zero perception of concerns from other members by some naive members during the online scrum meetings as some members on the project may not have       
+
+     robust understanding of English Language (both written and oral )and this may be missed as members may not have met phsically to ascertain members       
+
+    versatility in understanding hence may not effectively pass the challenges he's going through to the rest of the team neither could he offer suggestion   
+
+    at his disposal to offer solution .
+ 
+ vii.) Impersenation may be another risk the project may soffer as scrum meeting may be organised online amomg roject team members.
+
+
+
+2.)
+Technical approach to for the automation testing to obtain 100% coverege witll be:
+
+i.)identifying the type of test cases I want to automate
+  
+   * is it regression test suit, sanity/smoke test suit, build deployment, etc  
+   * Identifying/recognising elements(objects) applying appropriate
+    ( locators like id,name, PartialTextLink,TextLink,css etc.Objects like button, radio      button, Dropdown box, Drop box, Combo box etc)
+   * command prompt/method to perform operations on elements e.g .getText,.sendKeys syntax etc
+   * recognising platform to enhance test cases e.g java, C#,
+
+
+ii.)identifying the tool to use eg development IDE such as: Eclips, Intelij-cE,Netbean
+
+
+iii.)design framework suitable e.g Unit Testing Framework.eg junit,TestNGwhich is having advantage of amiable reports,easy to manipulate some test cases in   
+
+   xml file, also suppor Datadriven tests
+
+iv.) identifying utility file and environment file
+
+v.) identifying and work on reporting
+ *TestNgreports#
+ *Jenkins report
+ *self designed reports (html)
+ *junit logging
+
+

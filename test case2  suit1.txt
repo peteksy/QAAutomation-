@@ -1,0 +1,34 @@
+                                    @Test 2
+                                 ---------------
+
+package: 
+
+import org.openqa.By;
+import org.openqa.Selenium.webDriver;
+import org.openqa.firefox.FirefoxDriver;
+
+
+
+public void Sign-in
+
+public static void main(String[]args){
+//object and variables instantiations
+webDriver driver = new FirefoxDriver();
+driver.get("http://test-8c21.oneflowcloud.com/sign-in");
+//enter valid username and fill in the valid username in the username field
+webElement username = driver.findElement(By.name(uid)).sendkeys("vauxha16");
+//find password and fill it
+webElement password = driver.findElement(By.name("password")).sendkeys("123abc");
+//click on the sign-in button
+webElement sign-in = driver.findElement(By.name("sign-in")).click();
+//Navigate the form
+driver.navigate().forward();
+driver.navigate().backward();
+driver.navigate().refresh();
+// click onlogout button to logout the app
+webElement logout = driver.findElement(logout).click();
+//close the browser
+driver.close();
+}
+
+
